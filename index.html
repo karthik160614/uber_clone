@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uber - Request a Ride</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header>
+    <div id="header-left">
+      <h1>Uber</h1>
+      <ul>
+        <li><a href="#">Ride</a></li>
+        <li><a href="#">Drive</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+
+    <div id="header-right">
+      <ul>
+        <li>
+          <a href="#">
+            <span><i class="fa fa-globe" aria-hidden="true"></i></span> EN
+          </a>
+        </li>
+        <li><a href="#">Help</a></li>
+      </ul>
+      <a href="#">Login</a>
+      <button>Sign up</button>
+    </div>
+  </header>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav>
+    <h1>Ride</h1>
+    <ul>
+      <li><a href="#">Request a ride</a></li>
+      <li><a href="#">Reserve a ride</a></li>
+      <li><a href="#">See prices</a></li>
+      <li><a href="#">Explore ride options</a></li>
+      <li><a href="#">Airport rides</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero-section">
+
+    <!-- Hero Left Content -->
+    <div id="hero-section-left" class="hero-box">
+      <p>
+        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+        Vadodara, IN
+        <span><a href="#">Change city</a></span>
+      </p>
+
+      <h1>Request a ride for now or later</h1>
+
+      <p>
+        <span><i class="fa fa-tag" aria-hidden="true"></i></span>
+        Up to 50% off your first 5 Uber rides. T&Cs apply.*
+        <br>*Valid within 15 days of signup.
+      </p>
+
+      <!-- Location Inputs -->
+      <div class="hero-location">
+        <div class="pickup-hero">
+          <span class="pickup-sp"><i class="fa fa-circle-o" aria-hidden="true"></i></span>
+          <input type="text" placeholder="Pickup location">
+        </div>
+
+        <div class="mid-hero"></div>
+
+        <div class="dropoff-hero">
+          <span class="dropoff-sp"><i class="fa fa-stop-circle-o" aria-hidden="true"></i></span>
+          <input type="text" placeholder="Dropoff location">
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div>
+        <button class="primary-button btn">See prices</button>
+        <button class="second-button btn">Schedule for later</button>
+      </div>
+    </div>
+
+    <!-- Hero Right Image -->
+    <div id="hero-section-right" class="hero-box">
+      <img src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=552/height=552/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy80MmEyOTE0Ny1lMDQzLTQyZjktODU0NC1lY2ZmZmUwNTMyZTkucG5n" alt="Uber ride illustration">
+    </div>
+
+    <!-- Mobile App Download (Hidden on Desktop) -->
+    <div id="hero-section-hide">
+      <h1>Do more in the app</h1>
+      <a href="#">
+        <div>
+          <div class="Uber-heading">
+            <p>Uber</p>
+          </div>
+          <h1>Download Uber App</h1>
+        </div>
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ==================== SUGGESTIONS SECTION ==================== -->
+  <section id="sug-section">
+    <div>
+      <h1>Suggestions</h1>
+
+      <div id="sub-super-box">
+        <!-- Suggestion Card 1 -->
+        <div class="sug-box">
+          <div>
+            <h3>Ride</h3>
+            <p>Go anywhere with Uber. Request a ride, hop in, and go.</p>
+            <button>Details</button>
+          </div>
+          <img src="https://mobile-content.uber.com/launch-experience/top_bar_rides_3d.png" alt="Ride">
+        </div>
+
+        <!-- Suggestion Card 2 -->
+        <div class="sug-box">
+          <div>
+            <h3>Reserve</h3>
+            <p>Book your ride in advance for a stress-free trip.</p>
+            <button>Details</button>
+          </div>
+          <img src="https://mobile-content.uber.com/uber_reserve/reserve_clock.png" alt="Reserve">
+        </div>
+
+        <!-- Suggestion Card 3 -->
+        <div class="sug-box">
+          <div>
+            <h3>Hourly</h3>
+            <p>Keep your driver for multiple stops with hourly rentals.</p>
+            <button>Details</button>
+          </div>
+          <img src="https://mobile-content.uber.com/launch-experience/Hourly2021.png" alt="Hourly">
+        </div>
+
+        <!-- Suggestion Card 4 -->
+        <div class="sug-box">
+          <div>
+            <h3>Intercity</h3>
+            <p>Travel between cities comfortably with Uber Intercity.</p>
+            <button>Details</button>
+          </div>
+          <img src="https://mobile-content.uber.com/launch-experience/intercity.png" alt="Intercity">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== PLAN SECTION ==================== -->
+  <section id="plan-section">
+    <div id="plan-main">
+      <h1>Plan for later</h1>
+
+      <div class="bottom-main-plan">
+        <!-- Left Plan Card -->
+        <div class="left-plan">
+          <div class="left-sub-plan">
+            <h1>Get your ride right with Uber Reserve</h1>
+            <h4>Choose date and time</h4>
+
+            <div class="time-date-plan">
+              <div>
+                <label for="plan-date">Date</label><br>
+                <input type="date" id="plan-date">
+              </div>
+              <div>
+                <label for="plan-time">Time</label><br>
+                <input type="time" id="plan-time">
+              </div>
+            </div>
+
+            <div>
+              <button class="btn primary-button" style="padding: 8px 100px;">Next</button>
+            </div>
+          </div>
+
+          <img src="https://tb-static.uber.com/prod/udam-assets/5152cc71-a5b0-4fbd-aeb8-bee896efcd48.png" alt="Schedule a ride">
+        </div>
+
+        <!-- Right Plan Card - Benefits -->
+        <div class="right-plan">
+          <h3>Benefits</h3>
+
+          <div class="plan-benefits">
+            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+            <div class="p-under">
+              <p>Choose your exact pickup time up to 90 days in advance.</p>
+              <hr>
+            </div>
+          </div>
+
+          <div class="plan-benefits">
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <div class="p-under">
+              <p>Extra wait time included to meet your ride.</p>
+              <hr>
+            </div>
+          </div>
+
+          <div class="plan-benefits">
+            <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+            <div class="p-under">
+              <p>Cancel at no charge up to 60 minutes in advance.</p>
+              <hr>
+            </div>
+          </div>
+
+          <a href="#">See terms</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="main-footer">
+
+      <!-- Footer Logo -->
+      <div id="footer-logo">
+        <div>
+          <p>Uber</p>
+        </div>
+        <a href="#">Visit Help Center</a>
+      </div>
+
+      <!-- Footer Navigation -->
+      <div id="footer-nav">
+        <div class="footer-nav-box">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our offerings</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Investors</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Uber One</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-box">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#">Ride</a></li>
+            <li><a href="#">Drive</a></li>
+            <li><a href="#">Deliver</a></li>
+            <li><a href="#">Uber for Business</a></li>
+            <li><a href="#">Uber Freight</a></li>
+            <li><a href="#">Gift cards</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-box">
+          <h4>Global citizenship</h4>
+          <ul>
+            <li><a href="#">Safety</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-box">
+          <h4>Travel</h4>
+          <ul>
+            <li><a href="#">Reserve</a></li>
+            <li><a href="#">Airports</a></li>
+            <li><a href="#">Cities</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Social & Location -->
+      <div id="footer-so">
+        <ul>
+          <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="#">
+              <span><i class="fa fa-globe" aria-hidden="true"></i></span> English
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="fa fa-map-marker" aria-hidden="true"></i></span> India
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Footer App Downloads -->
+      <div id="footer-app">
+        <img src="https://tb-static.uber.com/prod/udam-assets/07335cd8-47d5-51a0-a07b-125195eb4cea.svg" alt="Download on App Store">
+        <img src="https://tb-static.uber.com/prod/udam-assets/e723f2d5-90c4-5d3b-ad4d-c36fa5597879.svg" alt="Get it on Google Play">
+      </div>
+
+      <!-- Footer Privacy & Terms -->
+      <div id="footer-priv">
+        <p>&copy; 2026 Uber Technologies Inc.</p>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Accessibility</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
